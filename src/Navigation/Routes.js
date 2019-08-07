@@ -6,15 +6,18 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "../Pages/Home";
 import WriteReview from "../Pages/WriteReview";
 import Doctors from "../Pages/Doctors";
+import SingleDoctor from '../Pages/SingleDoctor'
 
 const Routes = () => {
+
 return (
     <div>
     <Switch>
-        <Route path="/home" component={Home} />
         <Route path="/write-review" component={WriteReview} />
         <Route path="/doctors" component={Doctors} />
-        <Route exact path="/" component={Home} />
+        <Route path="/doctor/:id" component={SingleDoctor} />
+        <Route path="/" component={Home} />
+        <Route exact path="/home" component={Home} />
     </Switch>
     </div>
 );

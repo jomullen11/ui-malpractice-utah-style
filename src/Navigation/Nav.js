@@ -3,7 +3,7 @@ import React from "react";
 const Navigation = () => {
 return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-    <a className="navbar-brand" href="http://localhost:3000">
+    <a className="navbar-brand" href="/">
         Malpractice in Utah
     </a>
     <button
@@ -19,7 +19,7 @@ return (
     </button>
     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div className="navbar-nav">
-        <a className="nav-item nav-link active" href="/home">
+        <a className="nav-item nav-link active" href="/">
             Home <span className="sr-only">(current)</span>
         </a>
         <a className="nav-item nav-link" href="/write-review">
