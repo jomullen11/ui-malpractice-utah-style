@@ -7,6 +7,7 @@ import Home from "../Pages/Home";
 import WriteReview from "../Pages/WriteReview";
 import Doctors from "../Pages/Doctors";
 import SingleDoctor from '../Pages/SingleDoctor'
+import underConstruction from '../Pages/UnderConstruction'
 
 const Routes = () => {
 
@@ -16,8 +17,8 @@ return (
         <Route path="/write-review" component={WriteReview} />
         <Route path="/doctors" component={Doctors} />
         <Route path="/doctor/:id" component={SingleDoctor} />
-        <Route path="/" component={Home} />
-        <Route exact path="/home" component={Home} />
+        <Route path="/home" component={Home} />
+        <Route exact path="/" component={underConstruction} />
     </Switch>
     </div>
 );

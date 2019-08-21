@@ -12,6 +12,17 @@ code {
     monospace;
 }
 
+/* Css for under construction page */
+.under-construction-page{
+  text-align: center;
+  margin-left: -5vw;
+  background: url(under-construction.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  padding-top: 100vh
+}
+
 .home-review-intro{
   font-size: 1.8rem
 }

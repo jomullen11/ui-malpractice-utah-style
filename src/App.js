@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom'
-import Navigation from './Navigation/Nav'
+import Navbar from './Navigation/Nav'
 import Routes from './Navigation/Routes'
 
 const App = () => {
@@ -8,7 +8,7 @@ const App = () => {
   return(
     <div>
       <Router>
-        <Navigation />
+        {/* <Navbar /> */}
         <Routes/>
       </Router>
     </div>
